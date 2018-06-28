@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+<title>Ivory Miller</title>
+<link href="/normalize.css" rel="stylesheet">
+<style>
+ul,a{
+  background:rgba(0,50,150,.2);/*last # is transparency)*/
+  background-size:cover;
+  color:#fff;/*white*/
+}
+img{
+  margin:40px 0px 0px 0px;
+  border:7px solid #00f;
+  border-radius:20px;
+}
+input[type="submit"]{
+  text-align:center;
+  background:url("http://dash.ga.co/assets/anna-bg.png");
+  background-size:cover;
+  font-family:helvetica;
+  font-size:18px;
+  border:0;
+  padding:9px;
+}
+body{
+  background-size:cover;
+  background-position:center;
+  text-align:center;---------
+}
+h1,h3,p,ul{
+  color:#000;
+}
+button{
+  background:#0f0;
+  color:black;
+  font-size:18;
+}
+ul{padding:5px;/*alldides*/}
+li{
+  display:inline;/*can display:block*/
+  padding: 0px 10px 0px 10px;/*top right bottom left*/
+}
+article{
+  background:url("http://www.glampingsandat.com/wp-content/uploads/2017/02/IMG_8215_6_7_fused.jpg");
+  max-width:500px;
+  padding:20px;
+  margin:0 auto;/*top&bottom left&right*/
+  line-height:28px;
+  position:absolute;/*breaks it out of the document's regular flow*/
+  bottom:0;/*moves it to 0px from the bottom of the page*/
+  margin:0;
+}
+@media (max-width:500px){
+  body{
+    background:#f00;
+  }
+  h1{font-size:36px;}
+  li{padding:20px;}
+}
+div{
+  height:200px;
+  background:url("http://dash.ga.co/assets/dessertcourse.jpg");
+  background-size:cover;
+  margin:40px auto 0 auto;/*north east south west*/
+  max-width:600px;
+  position:relative;
+  }
+  .first{
+  background:url("http://dash.ga.co/assets/firstcourse.jpg"); 
+  }
+</style>
+</head>
+
+
+<body>
+<header>
+<img src="/assets/anna.png">
+</header>
+<h1>Hi, I'm Ivory!</h1>
+<h3>I'm a <i>Design</i> Researcher</h3>
+<p>I study what makes people <u>click</u>!</p>
+<p>
+<input type="email" placeholder="Enter Your Email"><button>Learn More</button>
+</p>
+<br />
+<ul>
+  <li><a href="#">home</a></li>
+  <li><a href="#">about</a></li>
+  <li><a href="#">contact</a></li>
+</ul>
+<article>
+<div class:"first">
+<button>Like</button>
+<h3>welsh onion soko $14</h3>
+<small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small>
+</div>
+<script>
+$("button").on("click"),function(){alert("Javascript works!")});
+/* $(selectedelement).on(eventtype,action aftereventhappens); */
+</script>
+</article>
+</body>
